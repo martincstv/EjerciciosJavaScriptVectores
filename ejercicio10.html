@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 10</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-8 offset-2">
+                <h2 class="text-center text-primary">Ejercicio 10</h2>
+                <br>
+                <span class="text-secondary">Crear un programa que permita leer los lados de 5 triángulos, e indicar:
+                    <br>
+                    a) Qué tipo de triángulo es <br>
+                    b) El área de cada uno de ellos <br>
+                    c) El perímetro de cada triángulo <br>
+                    d) Los ángulos de cada uno de sus vértices</span>
+                <form action="" class="p-3 mt-3 shadow border" id="formulario1">
+                    <h3 class="text-center text-secondary">Triangulo1</h3>
+                    <input type="text" class="form-control my-2" id="lado_a" placeholder="Ingrese el lado a" min="1"
+                        required>
+                    <input type="text" class="form-control my-2" id="lado_b" placeholder="Ingrese el lado b" min="1"
+                        required>
+                    <input type="text" class="form-control my-2" id="lado_c" placeholder="Ingrese el lado c" min="1"
+                        required>
+                    <button class="btn btn-primary mt-2" type="submit">Calcular</button>
+                </form>
+                <hr>
+                <h3 class="text-center fw-light" id="tipo">...</h3>
+                <h3 class="text-center fw-light" id="area">...</h3>
+                <h3 class="text-center fw-light" id="perimetro">...</h3>
+                <h3 class="text-center fw-light" id="anguloA">...</h3>
+                <h3 class="text-center fw-light" id="anguloB">...</h3>
+                <h3 class="text-center fw-light" id="anguloC">...</h3>
+
+                <form action="" class="p-3 mt-3 shadow border" id="formulario2">
+                    <h3 class="text-center text-secondary">Triangulo2</h3>
+                    <input type="text" class="form-control my-2" id="lado_a" placeholder="Ingrese el lado a" min="1"
+                        required>
+                    <input type="text" class="form-control my-2" id="lado_b" placeholder="Ingrese el lado b" min="1"
+                        required>
+                    <input type="text" class="form-control my-2" id="lado_c" placeholder="Ingrese el lado c" min="1"
+                        required>
+                    <button class="btn btn-primary mt-2" type="submit">Calcular</button>
+                </form>
+                <hr>
+                <h3 class="text-center fw-light" id="tipo">...</h3>
+                <h3 class="text-center fw-light" id="area">...</h3>
+                <h3 class="text-center fw-light" id="perimetro">...</h3>
+                <h3 class="text-center fw-light" id="anguloA">...</h3>
+                <h3 class="text-center fw-light" id="anguloB">...</h3>
+                <h3 class="text-center fw-light" id="anguloC">...</h3>
+
+
+                <form action="" class="p-3 mt-3 shadow border" id="formulario3">
+                    <h3 class="text-center text-secondary">Triangulo3</h3>
+                    <input type="text" class="form-control my-2" id="lado_a" placeholder="Ingrese el lado a" min="1"
+                        required>
+                    <input type="text" class="form-control my-2" id="lado_b" placeholder="Ingrese el lado b" min="1"
+                        required>
+                    <input type="text" class="form-control my-2" id="lado_c" placeholder="Ingrese el lado c" min="1"
+                        required>
+                    <button class="btn btn-primary mt-2" type="submit">Calcular</button>
+                </form>
+                <hr>
+                <h3 class="text-center fw-light" id="tipo">...</h3>
+                <h3 class="text-center fw-light" id="area">...</h3>
+                <h3 class="text-center fw-light" id="perimetro">...</h3>
+                <h3 class="text-center fw-light" id="anguloA">...</h3>
+                <h3 class="text-center fw-light" id="anguloB">...</h3>
+                <h3 class="text-center fw-light" id="anguloC">...</h3>
+
+
+                <form action="" class="p-3 mt-3 shadow border" id="formulario4">
+                    <h3 class="text-center text-secondary">Triangulo4</h3>
+                    <input type="text" class="form-control my-2" id="lado_a" placeholder="Ingrese el lado a" min="1"
+                        required>
+                    <input type="text" class="form-control my-2" id="lado_b" placeholder="Ingrese el lado b" min="1"
+                        required>
+                    <input type="text" class="form-control my-2" id="lado_c" placeholder="Ingrese el lado c" min="1"
+                        required>
+                    <button class="btn btn-primary mt-2" type="submit">Calcular</button>
+                </form>
+                <hr>
+                <h3 class="text-center fw-light" id="tipo">...</h3>
+                <h3 class="text-center fw-light" id="area">...</h3>
+                <h3 class="text-center fw-light" id="perimetro">...</h3>
+                <h3 class="text-center fw-light" id="anguloA">...</h3>
+                <h3 class="text-center fw-light" id="anguloB">...</h3>
+                <h3 class="text-center fw-light" id="anguloC">...</h3>
+
+
+                <form action="" class="p-3 mt-3 shadow border" id="formulario5">
+                    <h3 class="text-center text-secondary">Triangulo5</h3>
+                    <input type="text" class="form-control my-2" id="lado_a" placeholder="Ingrese el lado a" min="1"
+                        required>
+                    <input type="text" class="form-control my-2" id="lado_b" placeholder="Ingrese el lado b" min="1"
+                        required>
+                    <input type="text" class="form-control my-2" id="lado_c" placeholder="Ingrese el lado c" min="1"
+                        required>
+                    <button class="btn btn-primary mt-2" type="submit">Calcular</button>
+                </form>
+                <hr>
+                <h3 class="text-center fw-light" id="tipo">...</h3>
+                <h3 class="text-center fw-light" id="area">...</h3>
+                <h3 class="text-center fw-light" id="perimetro">...</h3>
+                <h3 class="text-center fw-light" id="anguloA">...</h3>
+                <h3 class="text-center fw-light" id="anguloB">...</h3>
+                <h3 class="text-center fw-light" id="anguloC">...</h3>
+            </div>
+        </div>
+    </div>
+    <script src="ejercicio10.js"></script>
+</body>
+
+</html>
